@@ -1,0 +1,389 @@
+/*********************** RESET ***********************/
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.menu a{
+    text-decoration: none;
+}
+.fondo-izq a{
+    text-decoration: none;
+}
+
+/*********************** FUENTES ***********************/
+h1{
+    text-align: center;
+    font-family: 'BentonSans', sans-serif;
+    Font-weight: bolder;
+    color: white;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+}
+h2, h3{
+    font-family: 'BentonSans', sans-serif;
+    Font-weight: bolder;
+    color: white;
+}
+main{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.imagenes-font{
+    text-align: center;
+    font-size: 70%;
+    font-family: 'BentonSans', sans-serif;
+    font-weight: bold;
+    color: white; 
+}
+.personajes-layout{
+    text-align: center;
+    font-size: 100%;
+    font-family: 'BentonSans', sans-serif;
+    font-weight: bold;
+    color: white; 
+}
+.sub-name{
+    font-size: 60%;
+}
+.menu a{
+    color: white;
+    font-family: 'BentonSans', sans-serif;
+    font-weight: bolder;
+}
+.sub-name{
+    text-align: center;
+    font-family: 'BentonSans', sans-serif;
+    color: white;
+}
+.fondo-der label{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.fondo-der h3{
+    color: black;
+}
+.fondo-izq a{
+    color: white;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+.redes a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*********************** SKIN ***********************/
+.fondo-portada{
+    background-image: url(../imagenes/banners/fondo-portada.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+}
+.fondo-historia{
+    background-image: url(../imagenes/banners/fondo-historia.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.fondo-personajes{
+    background-image: url(../imagenes/banners/fondo-personajes.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.fondo-inicio{
+    background-image: url(../imagenes/banners/fondo-inicio.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.fondo-peliculas{
+    background-image: url(../imagenes/banners/fondo-peliculas.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: black;
+}
+.historia-font p{
+    text-align: justify;
+}
+.menu a:hover {
+    background-color: red;
+}
+.menu a:active {
+    background-color: white;
+    color: red;
+}
+.redes a:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.redes a:active {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*****************formulario**************/
+#newsletter .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#formcontacto input,
+#formcontacto textarea {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+#formcontacto input[type=submit] {
+    background-color: black;
+    color: white;
+    border-width: 0;
+    padding: 13px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.fondo-izq{
+    background-color: red;
+    width: 100%;
+}
+.fondo-der{
+    background-color: white;
+}
+#mapa{
+    display: none;
+}
+.transformacion:hover{
+    transform: scale(1.1)
+}
+
+/*********************** LAYOUT ***********************/
+.padding-mobile{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.width-h2{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.contenedor {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.marvel-logo{
+    padding-top: 10px;
+    width: 120px;
+    white-space: nowrap;
+}
+.lista-display{
+    list-style-type: none;	
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.imagenes-layout{
+    display: flex;
+    flex-direction: column;
+	width: 33%;
+    padding-bottom: 2%
+}
+.peliculas-size img{
+    width: 90%;   
+}
+.peliculas-size{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.personajes-size img{
+    width: 90%;   
+}
+.personajes-size{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.personajes-layout{
+    display: flex;
+    flex-direction: column;
+	width: 33.3%;
+    padding-bottom: 2%
+}
+.personajes-layout img{
+    width: 80%;
+}
+.redes{
+    list-style-type: none;	
+    display: flex;
+    justify-content: space-between;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#inicio{
+    padding-top: 40px;
+}
+#inicio .contenedor{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#portada{
+    padding-top: 100px;
+}
+section{
+    padding-bottom: 80px;
+}
+.inicio-der iframe{
+    margin: 0 auto;
+    text-align: center;
+}
+.inicio-izq{
+    margin: 0 auto;
+    text-align: center;
+}
+.inicio-img{
+    width: 80%; 
+}
+.trailer{
+    display: none;
+}
+.historia-img{
+    width: 100%;  
+}
+.sub-name{
+    padding-bottom: 10px;
+}
+
+#newsletter{
+    padding-bottom: 0;
+}
+.redes a{
+    padding: 0 35px;
+    padding-bottom: 17px;
+}
+.contenedor a{
+    text-align: center;
+}
+ul{
+    padding: 0;
+}
+
+/*********************** MEDIAQUERIES ***********************/
+@media (min-width:480px){
+    h1{
+        margin: 0;
+    }
+   
+}
+@media(min-width:768px){
+    h1{
+        font-size: 50px;
+    }
+    h1, h2{
+        text-align: left;
+    }
+    .sub-name{
+        font-size: 14px;
+    } 
+    #inicio .contenedor{
+    flex-direction: row;
+    }
+    .inicio-img {
+        width: 300px;
+    }
+    .lista-display{
+        flex-direction: row;
+    }
+    .header-flex{
+        flex-direction: row;
+    }   
+    .menu a { 
+        padding: 25px;
+        padding-right: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 17px;
+        white-space: nowrap;
+    }
+    .inicio-der{
+    padding-left: 20px;
+    }
+    #portada{
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .historia-img{
+    width: 50%;  
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    }
+	#newsletter .fondo-newsletter {
+        background: linear-gradient(90deg, red 50% , white 50%);
+	}	
+    .trailer{
+        padding-top: 10px;
+        width: 400px;
+        display: block;
+    } 
+    .fondo-portada{
+        background-position: top;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    .imagenes-layout{
+	width: 16.6%;
+    }
+    .personajes-layout{
+	width: 25%;
+    padding-bottom: 10px;
+    font-size: 22px;
+    }
+}
+/********IPAD PRO*****/
+@media(min-width:1024px){
+    .padding-mobile{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .fondo-portada{
+        background-position:top;
+    }
+    #inicio{
+        padding-top: 80px;
+        text-align: justify;
+    }
+    .fondo-izq{
+        width: 50%;
+        padding-bottom: 30px;
+        padding-right: 30px;
+    }
+    .fondo-der{
+        width: 50%;
+        padding-left: 20px;
+    }
+    #mapa{
+        display: block;
+        width: 100%;
+    }
+    #newsletter .contenedor{
+        flex-direction: row;
+    }
+    
+}
+/******PC NORMAL/TV*****/
+@media(min-width:1080px){
+     #portada{
+        padding-bottom: 240px;
+        padding-top: 240px;
+    }
+}
+
+
+
+
